@@ -2,7 +2,7 @@
 
 `math-mode-switcher` 是一个用于 **切换公式输出模式（渲染 / 源码 / 双模式）** 的 TraeWork Skill。它把“看最终公式排版效果”和“拿可复制公式代码”这两类需求明确分开，显著降低人与 AI 在数学公式沟通上的歧义和往返成本。
 
-[中文说明](./docs/zh-CN.md) | [English Guide](./docs/en.md)
+[中文说明](./docs/zh-CN.md) | [English Guide](./docs/en.md) | [专利/论文增强说明](./docs/advanced/patent-mode.md) | [示例口令](./examples/prompts.md)
 
 ## Why this skill
 
@@ -38,7 +38,13 @@
 docs/
   zh-CN.md
   en.md
+  advanced/
+    patent-mode.md
+examples/
+  prompts.md
 README.md
+CHANGELOG.md
+CONTRIBUTING.md
 LICENSE
 ```
 
@@ -72,6 +78,17 @@ LICENSE
 
 - [中文详细说明](./docs/zh-CN.md)
 - [English documentation](./docs/en.md)
+- [专利/论文增强说明](./docs/advanced/patent-mode.md)
+- [示例口令](./examples/prompts.md)
+- [贡献说明](./CONTRIBUTING.md)
+- [更新记录](./CHANGELOG.md)
+
+## Roadmap
+
+- 增强专利/论文写作场景下的符号命名约束
+- 补充更多跨模型稳定口令示例
+- 引入更细粒度的“只渲染 / 只源码 / 双模式 + 解释”策略模板
+- 增加面向学术写作与技术审校的最佳实践集合
 
 ## License
 
